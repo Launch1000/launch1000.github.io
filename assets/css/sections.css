@@ -1,3 +1,12 @@
+.services-section .block-title {
+	color: #5c5c5c;
+	font-size: 18px;
+}
+.services-section .services-list .row {
+	margin-bottom: 20px;
+}
+
+
 #header{
   left: 0;
   position: absolute;
@@ -8,7 +17,7 @@
   background: url(../img/bg/utility-bg.jpg) no-repeat center top; 
   background-attachment: relative;
   background-position: center bottom;
-  padding: 120px 0 140px;
+  padding: 90px 0 140px;
   min-height: 500px;
   width: 100%;
 
@@ -22,7 +31,13 @@
     -o-background-size: cover;
     background-size: cover; 
 }
-
+.hero-price {
+	background: none repeat scroll 0 0 #be3d10;
+    color: #fff;
+    display: inline-block;
+    font-size: 28px;
+    padding: 10px 40px;
+}
 
 /*Begin FEATURE Dynamic 
 *Style for front page Feature with dynamic layout
