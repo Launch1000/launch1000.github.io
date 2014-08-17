@@ -1,0 +1,186 @@
+/* Typography resets */
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0; }
+
+/* Default Link Styles */
+a {
+  color: #2c7787;
+  text-decoration: none;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #266674; }
+  a img {
+    border: none; }
+
+/* Default header styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4; }
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 60%;
+    color: #6f6f6f;
+    line-height: 0; }
+
+h1 {
+  font-size: 2.125rem; }
+
+h2 {
+  font-size: 1.6875rem; }
+
+h3 {
+  font-size: 1.375rem; }
+
+h4 {
+  font-size: 1.125rem; }
+
+h5 {
+  font-size: 1.125rem; }
+
+h6 {
+  font-size: 1rem; }
+
+.underline {
+  border-bottom: 3px solid;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+.title{
+  font-size: 6rem;
+  margin: 15px 0;
+  font-weight: 300;
+}
+
+.tagline {
+  font-weight: 500;
+  font-size: 3rem; 
+  margin: 10px 0;
+}
+
+.focus {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 30px;
+  margin: 10px 0;
+}
+
+.action-item .title{
+  font-size: 4rem;
+  margin: 5px 0;
+  font-weight: 300;
+}
+
+.action-item .tagline{
+  font-size: 4rem;
+  margin: 5px 0;
+  font-weight: 300;
+}
+
+.action-item .focus{
+  font-size: 2rem;
+  margin: 5px 0;
+  font-weight: 100;
+}
+
+#hero .title{
+  color: #FFF;
+}
+
+#hero .tagline {
+  color: #FFF;
+}
+
+#hero .focus {
+  color: #FFF;
+}
+#hero .lead {
+  color: #FFF;
+  margin: 15px 0 0;
+}
+#feature .title{
+  color: #3e3e3e;
+  font-size: 6rem;
+  margin: 15px 0;
+  font-weight: 300;
+}
+
+#feature .tagline {
+  color: #4e4e4e;
+  font-weight: 500;
+  font-size: 3rem; 
+  margin: 10px 0;
+}
+
+#feature .focus {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 30px;
+  margin: 10px 0;
+}
+
+.services-section .title{
+  color: #979797;
+  font-size: 6rem;
+  margin: 15px 0;
+  font-weight: 300;
+}
+
+.services-section .tagline {
+  color: #5c5c5c ;
+  font-weight: 500;
+  font-size: 3rem; 
+  margin: 10px 0;
+}
+
+.services-section .lead {
+  color: #777777;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 30px;
+  margin: 10px 0;
+}
+
+.services-section .focus {
+  color: #999999;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+
+
+.text-white {
+  color: #FFF;
+}
+
+.text-primary{
+  color: ;
+}
+.text-secondary{
+  color: ;
+}

@@ -1,0 +1,219 @@
+#header{
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+.hero-section{
+  background: url(../img/bg/utility-bg.jpg) no-repeat center top; 
+  background-attachment: relative;
+  background-position: center bottom;
+  padding: 120px 0 140px;
+  min-height: 500px;
+  width: 100%;
+
+  -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+
+/*Begin FEATURE Dynamic 
+*Style for front page Feature with dynamic layout
+*/
+
+
+#solutions-section {
+	background: url(../img/bg/advanced_feature-bg.jpg) no-repeat center top;
+	color: #FFF;
+	font-family: 'Lato', inherit;
+	width: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/*BEGIN Columns & Layout */
+#solutions-section .column-left{
+	background-color: #FFF;
+	background-color: rgba(255,255,255, 0.75);
+	color:#3e3e3e;
+	height: 100%;
+	min-height: 800px;
+	padding: 80px 40px 20px;
+}
+
+#solutions-section .column-right{
+  padding: 120px 20px 50px 50px;
+}
+
+#solutions-section .row-list {
+  margin: 20px 0;
+}
+
+#solutions-section .sevice-block{
+  background: rgba(255,255,255, 0.8);
+}
+/*END Columns & Layout */
+/*BEGIN Typography */
+#solutions-section .title{
+	color: #3e3e3e;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 15px 0;
+}
+
+#solutions-section .block-title {
+	font-size: 22px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: normal;
+	margin: 10px 0 10px;
+}
+
+#solutions-section .tagline {
+	color: #4a4a4a;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+#solutions-section .lead {
+	color: #4e4e4e;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 10px 0;
+}
+
+#solutions-section .focus {
+	font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 10px 0;
+}
+
+#solutions-section p {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	margin: 10px 0;
+}
+/*END Typography */
+
+#feature.basic {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#feature.basic .row-first {
+  margin: 70px 0;
+}
+
+#feature.basic .block-title{
+  margin: 10px 0;
+}
+
+#feature.basic .focus {
+  line-height: normal;
+}
+
+#feature.basic .fa {
+  color: #496b95;
+}
+
+.contact-form{
+	background: #FFF;
+	background-color:rgba(255,255,255, 0.75); 
+	padding: 80px 40px;
+}
+
+#design_development-section{
+  background: url(../img/bg/design_development-bg.jpg) no-repeat center top; 
+}
+#email_communication-section{
+  background: url(../img/bg/email_communication-bg.jpg) no-repeat center top; 
+}
+
+#hosting_domain-section{
+  background: url(../img/bg/hosting_domain-bg.jpg) no-repeat center top; 
+}
+
+#start_new_project-section{
+  background: url(../img/bg/start_new_project-bg.jpg) no-repeat center top; 
+}
+
+#design_development-section,
+#email_communication-section,
+#hosting_domain-section,
+#start_new_project-section{
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+/*BEGIN Dividers */
+#divider1{
+  background: #305e8d;
+  color: #FFF;
+  padding: 5px 0;
+}
+
+#divider2{
+  background: #c84e33;
+  color: #FFF;
+  padding: 5px 0;
+}
+
+#divider3{
+  background: #c84e33;
+  color: #FFF;
+  padding: 5px 0;
+}
+
+#divider4{
+  background: #c84e33;
+  color: #FFF;
+  padding: 5px 0;
+}
+/*END Dividers */
+
+/* Action Items & Quote Sections*/
+.action-container{
+  color: #FFF;
+  padding: 50px 0;
+}
+
+#quote-first {
+  background:#1f608d;
+}
+
+#quote-second{
+  background:#7d9c2a;
+}
+
+#quote-third{
+  background:#b78320;
+}
