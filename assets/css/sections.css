@@ -1,3 +1,8 @@
+.container-fluid {
+	max-width: 1600px;
+}
+
+
 .services-section .block-title {
 	color: #5c5c5c;
 	font-size: 18px;
@@ -13,7 +18,7 @@
   right: 0;
   top: 30px;
 }
-.hero-section{
+#hero{
   background: url(../img/bg/utility-bg.jpg) no-repeat center top; 
   background-attachment: relative;
   background-position: center bottom;
@@ -37,6 +42,26 @@
     display: inline-block;
     font-size: 28px;
     padding: 10px 40px;
+}
+
+.free-website #hero {
+	background: url(../img/bg/free_website-bg.jpg) no-repeat center top; 
+	background-attachment: relative;
+  background-position: center bottom;
+  padding: 90px 0 140px;
+  color: #FFF;
+  min-height: 500px;
+  width: 100%;
+
+  -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 
 /*Begin FEATURE Dynamic 
